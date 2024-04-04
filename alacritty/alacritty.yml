@@ -4,6 +4,7 @@ window:
     x: 0
     y: 0
   dynamic_padding: false
+  option_as_alt: Both
 
 font:
   normal:

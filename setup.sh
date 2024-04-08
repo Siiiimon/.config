@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-# symlink zshrc
-ln -s ~/.config/.zshrc ~/.zshrc
+# symlinks
+ln -s ~/.config/zshrc ~/.zshrc
+ln -s ~/.config/tmux.conf ~/.tmux.conf

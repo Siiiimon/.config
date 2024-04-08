@@ -1,7 +1,6 @@
 alias nvim=lvim
 export EDITOR='lvim'
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH=/usr/local/Cellar:$PATH
 export PATH="/usr/local/opt/inetutils/libexec/gnubin:$PATH"
 export PATH="/Applications/Alacritty.app/Contents/MacOS/alacritty:$PATH"

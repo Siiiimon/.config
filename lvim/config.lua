@@ -32,9 +32,6 @@ lvim.plugins = {
     -- end
   },
   {
-    "wakatime/vim-wakatime"
-  },
-  {
     "j-hui/fidget.nvim"
   },
   {

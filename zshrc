@@ -4,7 +4,14 @@ export EDITOR='lvim'
 export PATH=/usr/local/Cellar:$PATH
 export PATH="/usr/local/opt/inetutils/libexec/gnubin:$PATH"
 export PATH="/Applications/Alacritty.app/Contents/MacOS/alacritty:$PATH"
+export PATH="/Users/scornelius/Library/Python/3.12/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
+
+# zeit config
+export ZEIT_DB="$HOME/.config/zeit.db"
+
+source $HOME/.config/localrc.sh
 
 # git integration wizardry
 autoload -Uz vcs_info

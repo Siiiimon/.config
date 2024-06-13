@@ -1,0 +1,6 @@
+- lvim
+  - node
+  - python
+  - ripgrep
+    - rust
+  - code-minimap

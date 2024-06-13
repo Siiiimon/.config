@@ -1,0 +1,68 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.5",
+  "schemes" : [
+    {
+      "if" : {
+        "device" : {
+          "vendorID" : "0x258a",
+          "productName" : "Wired Gaming Mouse",
+          "category" : "mouse",
+          "productID" : "0x33"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.65,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : "36px"
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "reverse" : {
+          "vertical" : false
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.8293
+      },
+      "if" : {
+        "device" : {
+          "productName" : "Apple Internal Keyboard \/ Trackpad",
+          "productID" : "0x340",
+          "category" : "trackpad",
+          "vendorID" : "0x5ac",
+          "serialNumber" : "FM7951308BEHYYKA2+WNN"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "serialNumber" : "d4-57-63-60-cb-1c",
+          "vendorID" : "0x4c",
+          "productID" : "0x265",
+          "productName" : "Magic Trackpad",
+          "category" : "trackpad"
+        }
+      },
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : false
+        }
+      }
+    }
+  ]
+}
